@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Анкета посетителя ресторана</h1>
+    <fieldset> 
+        <legend>Контактная информация</legend><br>
+        <label for="name">Имя:</label>
+            <input name="name" id="name" type = "text"><br>
+        <label for="phone">Телефон:</label>
+            <input name="number" id="phone" type = "number"><br> 
+        <label for="email">Email: </label> 
+            <input name="email" id = "email "type="email"><br>
+            <label for="email">Дата посещения: </label> 
+            <input name="data" id = "data "type="data" placeholder="дд.мм.гггг" required> <br>
+    </fieldset>
+    <fieldset>
+        <legend>Персональная информация</legend><br>
+        <label for="age">Возраст:</label>
+            <input name="age" id="age" type = "number"><br>
+
+        <label for="select">Любимая кухня </label>
+            <select name="select" id="select">
+                <option value="russian">Русская</option>
+                <option value="uzbek" selected>Узбекская</option>
+                <option value="turkey">Турецкая</option>
+            </select><br>
+    
+            <label for="items">Какие блюда Вы бы хотели увидеть в меню?</label>
+            <textarea name="items" id="items" cols="40" rows="4"></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Оценка нашего заведения</legend>
+        <label for="question">Почему вы выбрали наше заведение?</label><br>
+        <label for="distance">
+            <input type="radio" id="" name="distance" value="distance">Недалеко от дома/работы
+        </label>
+        <label for="ads"><br>
+            <input type="radio" id="ads" name="ads" value="ads">Увидел рекламу
+        </label>
+        <label for="advice"><br>
+            <input type="radio" id="advice" name="advise" value="advise">Посоветовали
+        </label>
+        <label for="quality"><br>
+            <input type="radio" id="quality" name="quality" value="quality">Оптимальное соотношение цены и качества
+        </label><br>
+        <label for="question">Вы будете рекомендовать наше заведение своим знакомым?</label><br>
+        <label for="yes">
+            <input type="radio" id="" name="yes" value="yes">Да
+        </label>
+        <label for="no"><br>
+            <input type="radio" id="no" name="yes" value="no">Нет
+        </label>
+    </fieldset>
+
+    <button>отправить</button>
+   
+
+</body>
+</html>

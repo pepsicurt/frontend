@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#text_id{
+    color: brown;
+
+}
+.class2{
+    color: blue;
+
+}
+.text_class{
+    color: cornflowerblue;
+}
+#text_orange{
+    color:darkorange;
+}
+
+#header_purple{
+    color: purple;
+
+}
+#header_yellow{
+    color: yellow;
+
+}
+#header_green{
+    color: green;
+
+}
+#header_red{
+    color: red;
+
+}
+#header_pink{
+    color: pink;
+
+}
+#header_grey{
+    color: grey;
+
+}
+#header_orange{
+    color: orange;
+
+}
+#header_coral{
+    color: coral;
+
+}
+#header_brown{
+    color: brown;
+
+}
+
+
+#fw100{
+    font-weight: 100;
+}
+
+#fw200{
+    font-weight: 200;
+}
+
+#fw300{
+    font-weight: 300;
+}
+
+#fw400{
+    font-weight: 400;
+}
+
+#fw500{
+    font-weight: 500;
+}
+
+#fw600{
+    font-weight: 600;
+}
+
+#fw700{
+    font-weight: 700;
+}
+
+#fw800{
+    font-weight: 800;
+}
+
+#fw900{
+    font-weight: 900;
+}
+
+
+.text_align_left{
+    color: blue;
+    text-align: left;
+    
+}
+
+.text-align_center{
+    color: brown;
+    text-align: center;
+}
+
+.text__align_right{
+    color:blueviolet;
+    text-align: right;
+}
+
+
+
+.margin{
+    background-color: aqua;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.wrapper{
+border: 1px solid #000;
+}

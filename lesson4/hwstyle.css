@@ -1,0 +1,63 @@
+.margin{
+    background-color:chartreuse;
+    padding: 20px;
+    width: 160px;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#submit{
+   background-color:dimgray;
+   color: blue;
+   width: 100px;
+}
+
+
+.text-align_center{
+    color: darkred;
+    text-align: center;
+}
+
+.text-align_right{
+    color: blue;
+    text-align: right;
+
+}
+
+
+.margin2{
+    background-color: aqua;
+    border: 1px solid;
+    margin-bottom: 30px;
+    padding: 20px;  
+    width: 200px;
+
+}
+
+.text-align-center{
+    color:hotpink;      
+    text-align: center;
+}
+
+.submit{
+    background-color: hotpink;
+    border-radius: 5px;
+    width: 150px;
+    border: none;
+    color: white;
+}
+
+
+#fw900{
+    font-weight: 900;
+}
+
+
+#fw100{
+    font-weight: 100;
+}
+
+
