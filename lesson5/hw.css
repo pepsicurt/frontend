@@ -1,0 +1,20 @@
+.container{
+    width: 800px;
+    height: 800px;
+    border: 0;
+    display: flex;
+    gap: 30px;
+}
+
+
+.item{
+    width: 70px;
+    height: 50px;
+    border:0;
+    background-color:coral;
+    opacity: 1;
+    color: azure;
+    text-align: center;
+}
+
+

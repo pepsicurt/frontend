@@ -1,0 +1,133 @@
+/* .container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid #000;
+
+}
+
+.item{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+} */
+
+
+/* .container{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border: 1px dashed #ffa41a;
+    flex-wrap: wrap-reverse;
+    align-items:end;
+    padding: 10px;
+    gap: 10px;
+    
+}
+
+.item{
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border: 1px solid #020331;
+} */
+
+/* .container{
+    width: 100%;
+    height: 100%;
+
+}
+
+.header_block{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px;
+
+}
+
+.item{
+    width: 130px;
+    background-color: aqua;
+    padding: 10px;
+} */
+
+
+.wrapper{
+    margin: 0 auto;
+    display: flex;
+    width: 300px;
+    height: 130px;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+
+}
+.item1{
+    border: 2px solid #3f043a;
+
+    
+}
+
+.item2{
+    border: 2px dotted #3f043a;
+   
+
+}
+
+.item3{
+    border: 2px dashed #3f043a;
+   
+}
+
+.item4{
+    border: 2px double #3f043a;
+    
+}
+
+.item5{
+    border: 2px groove #3f043a;
+   
+
+
+}
+
+.item6{
+    border: 2px ridge #3f043a;
+  
+
+}
+
+.item7{
+    border: 2px outset #3f043a;
+  
+}
+
+.item8{
+    border: 2px inset #3f043a;
+   
+
+}

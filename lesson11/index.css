@@ -1,0 +1,35 @@
+.text {
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 15px #797979;
+
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    width: 200px;
+    height: 160px;
+
+
+}
+
+.font {
+    font-size: 30px;
+    font-family: "Caveat";
+    font-size: 25px;
+    text-align: center;
+
+}
