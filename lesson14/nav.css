@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 945px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #070707;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+
+}
+
+
+.list-item a {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Mukta";
+
+}
+
+#list-item-home a {
+    color: #070707;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Mukta";
+
+}
