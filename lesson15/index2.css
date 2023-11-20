@@ -1,0 +1,36 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+
+.container {
+    width: 100%;
+
+}
+
+.item1 {
+    width: 90px;
+    height: 32px;
+    background-color: #4F7177;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+
+
+.item2{
+    width: 142px;
+    height: 86px;
+    background-color: #FFF200;
+    color: #45474A;
+    border-radius: 8px;
+    border: 4px solid #666666;
+    font-weight: bold;
+    font-family: "inter";
+    font-size: 15px;
+    text-align: left;
+    padding-left: 34px;
+}
