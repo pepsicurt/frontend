@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1152px;
+    height: 700px;
+
+}
+
+.nav-list {
+    display: flex;
+
+}
+
+.logo {
+    width: 140px;
+    height: 40.38px;   
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ul-list {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.nav-list-item {
+    width: 60px;
+    height: 12px;
+    color: black;
+    font-size: 10px;
+    font-family: "Raleway";
+    font-weight: 700;
+    margin-right: 80px;
+}
+
+.button1 {
+    width: 130px;
+    height: 40px;
+    background-color: #4285F4;
+    color: #FCFDFE;
+    font-size: 10px;
+    font-family: "Raleway";
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+.content {
+   
+}
+
+.main-title {
+    width: 497px;
+    height: 108px;
+    color: black;
+    font-size: 44px;
+    font-family: "Rubik";
+    font-weight: 700;
+    line-height: 55.44px;
+
+}
+
+.health {
+    color: #4285F4;
+}
+
+.description {
+    width: 375px;
+    height: 36px;
+    color: #616161;
+    font-size: 11px;
+    font-family: "Rubik";
+    font-weight: 300;
+    line-height: 16.62px;
+    letter-spacing: 0.90px;
+}
+
+.button2 {
+    width: 144px;
+    height: 40px;
+    background-color: #EC5863;
+    border: 0px;
+    color: #FCFDFE;
+    font-size: 10px;
+    font-family: "Raleway";
+    font-weight: 800;
+    letter-spacing: 1.40px;
+    border-radius: 5px;
+}
+
+.picture{
+    display: flex;
+    justify-content: right;
+}
+.pic1{
+    width: 547px;
+    height: 400px;
+
+}
+
+.video{
+    display: flex;
+    align-items: end;
+
+}
+
+.icon{
+    width: 44px;
+    height: 44px;
+}
+
+
+.text{
+    width: 172px;
+    height: 16px;
+    color: #B0B0B0;
+    font-size: 13px;
+    font-family: "Rubik";
+    font-weight: 400;
+    line-height: 16.38px;
+    letter-spacing: 1px;
+    padding-left: 12px;
+}
+
+.text2{
+    color: black;
+    font-size: 9px;
+    font-family: "Rubik";
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 11.35px;
+    letter-spacing: 1.49px;
+    padding-left: 12px;
+}
