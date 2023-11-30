@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #f8f4f4;
+}
+
+
+.nav-list {
+    width: 100%;
+    height: 60px;
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+
+}
+
+.ul-list {
+    width: 335px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+
+    list-style-type: none;
+}
+
+.logo {
+    width: 110px;
+    height: 26px;
+    padding-left: 50px;
+}
+
+.nav-list-item {
+    width: 35px;
+    height: 15px;
+    font-size: 14px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button1 {
+    width: 150px;
+    height: 40px;
+    color: #1C1D28;
+    font-size: 13px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    line-height: 16px;
+    border-radius: 11px;
+    border: 0px;
+    background-color: #FFD2A4;
+}
+
+
+
+.subtitle {
+    color: #161722;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-top: 108px;
+    padding-left: 620px;
+
+}
+
+.title {
+    color: #161722;
+    font-size: 40px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    line-height: 64px;
+    padding-left: 475px;
+}
+
+
+.poster {
+    width: 1000px;
+    height: 360px;
+    background-color: white;
+    margin-top: 45px;
+    margin-left: 145px;
+
+
+}
+
+.main-poster {
+    display: flex;
+
+}
+
+.text {
+    padding-top: 100px;
+}
+
+.church {
+    color: #161722;
+    width: px;
+    font-size: 22px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+
+
+}
+
+
+.pic {
+    width: 470px;
+    height: 300px;
+
+    padding: 30px;
+
+}
+
+
+.copyright1 {
+    color: #161722;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.copyright2 {
+    color: #161722;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-top: 55px;
+    margin-left: 120px;
+}
+
+.description {
+
+    width: 510px;
+    color: #50525f;
+    font-size: 13px;
+    font-family: "Roboto Condensed";
+}
+
+.button2 {
+    width: 180px;
+    height: 45px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #FFD2A4;
+    color: #1C1D28;
+    font-size: 14px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.title2 {
+    color: #161722;
+    font-size: 40px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    line-height: 64px;
+    padding-left: 475px;
+    margin-top: 170px;
+    margin-bottom: 50px;
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7 {
+    width: 230px;
+    height: 280px;
+    background-color: white;
+}
+
+
+.relationships {
+    width: 74px;
+    height: 5px;
+    color: #A54E2B;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 31px;
+}
+
+.font {
+    width: 170px;
+    color: #161722;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.caption {
+    width: 170px;
+    height: 60px;
+    color: #161722;
+    font-size: 13px;
+    font-family: "Roboto Condensed";
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.etc {
+    color: #161722;
+    font-size: 14px;
+    font-family: "Roboto Condensed";
+    margin-left: 30px;
+    padding-top: 35px;
+
+}
+
+.etcc {
+    color: #161722;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+
+}
+
+
+.footer {
+    width: 1300px;
+    height: 270px;
+    background-color: #1C1D28;
+    margin-top: 120px;
+    display: flex;
+}
+
+
+
+.logo1 {
+    width: 130px;
+    height: 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.copyright3 {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+.phone {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.place {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.email {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+
+
+.links {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.About {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.Sermon {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.Event {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.Blogs {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.wrapper3 {
+    display: flex;
+}
+
+.connecting {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    padding-left: 100px;
+}
+
+.wrap4 {}
+
+.end-text {
+    color: white;
+    font-size: 32px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* icons у меня не экспортируются */
