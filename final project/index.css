@@ -74,7 +74,7 @@ ul {
 
 .modal {
     position: fixed;
-    top: 100px;
+    top: 50px;
     bottom: 100px;
     right: 300px;
     width: 700px;
@@ -408,13 +408,53 @@ ul {
     margin-left: 20px;
 }
 
-.scenery1,
-.scenery2,
-.scenery3 {
-    width: 325px;
+
+
+
+
+
+
+
+
+.swiper-content{
     height: 450px;
-    cursor: pointer;
+    font-size: 12px;
+    margin-top: 50px;
 }
+
+.swiper{
+    width: 1000px;
+    height: 500px;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.swiper-slide img{
+  width: 325px;
+  object-fit:cover ;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+   right: 140px;
+   left: auto;
+}
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px ;
+    left: auto;
+}
+
+
+
+
+
+
 
 
 .container4 {
@@ -701,7 +741,7 @@ ul {
     color: #00B3A0;
     font-size: 16px;
     font-family: 'Roboto Condensed';
-    padding-top: 12px;
+    margin-top: 12px;
     line-height: 18px;
 }
 
@@ -809,6 +849,13 @@ ul {
     left: 175px;
 }
 
+.border{
+    width: 1170px;
+    height: 0px;
+    border: 0.5px solid #fff8f8;
+    margin-top: 70px;
+}
+
 .foot {
     margin-top: 114px;
     display: flex;
@@ -823,3 +870,47 @@ ul {
     text-align: center;
     margin-top: 78px;
 }
+
+/* 
+.intouch-wrapper {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    display: none;
+} 
+
+
+.intouchh {
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    right: 300px;
+    width: 700px;
+    height: 500px;
+    background-color: #FCFCFC;
+    border: 0px solid #000;
+    border-radius: 20px;
+}
+
+
+.closebuttonintouch {
+    cursor:pointer;
+    font-weight: bold;
+    border: 0px solid #000;
+    margin: 25px ;
+}
+
+
+.smm{
+    width: 100px;
+    color: #002248;
+    font-size: 20px;
+    margin: 0 auto
+}
+
+.facebook-icon{
+    width: 50px;
+    height: 50px;
+
+} */

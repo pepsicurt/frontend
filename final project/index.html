@@ -19,13 +19,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
     <title>TripGoal</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
     <div class="main-container">
         <div class="container1">
             <nav class="nav-list">
-                <img src="./images/Logo.png" alt="logo" class="logo">
+               <a href="#">
+                 <img src="./images/Logo.png" alt="logo" class="logo">
+               </a>
                 <ul class="ul-list">
                     <li class="nav-list-item"><a href="#" class="a-list">Home</a></li>
                     <li class="nav-list-item"><a href="#" class="a-list">About</a></li>
@@ -81,7 +88,8 @@
             </div>
         </div>
         <div class="bookbutton">
-            <button class="bookoption"><img src="./images/Vectorbook-icon.svg" alt="icon" class="icon2">Book Now</button>
+            <button class="bookoption"><img src="./images/Vectorbook-icon.svg" alt="icon" class="icon2">Book
+                Now</button>
         </div>
 
 
@@ -133,10 +141,35 @@
             </div>
 
         </div>
-        <div class="scenery-pics">
-            <img src="./images/scenery1.png" alt="pic1" class="scenery1">
-            <img src="./images/Frame 6scenery2.png" alt="pic2" class="scenery2">
-            <img src="./images/Frame 7scenery3.png" alt="pic3" class="scenery3">
+
+        <div class="swiper-content">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/scenery1.png"></div>
+                    <div class="swiper-slide"><img src="./images/Frame 6scenery2.png"></div>
+                    <div class="swiper-slide"><img src="./images/Frame 7scenery3.png"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <script>
+
+                var swiper = new Swiper(".mySwiper", {
+                    spaceBetween: 30,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+
+                    },
+                    mousewhell: true,
+                    keyboard: true,
+                })
+            </script>
         </div>
     </div>
 
@@ -218,9 +251,11 @@
                 <h2 class="instagram">Check Our Instagram Profile</h2>
                 <div class="follow-button">
                     <button class="follow">Follow</button>
+
                 </div>
             </div>
         </div>
+
         <div class="citypic-content">
             <img src="./images/halfframe.png" alt="" class="halfframe">
             <img src="./images/building.png" alt="" class="building">
@@ -228,15 +263,33 @@
             <img src="./images/bridge.png" alt="" class="bridge">
             <img src="./images/womanframe.png" alt="womanframe">
         </div>
+
+
     </div>
 
     <div class="container7">
         <div class="logo-last">
-            <img src="./images/Logo.png" alt="" class="logolast">
+            <a href="#">
+                <img src="./images/Logo.png" alt="logo" class="logolast">
+               </a>
         </div>
         <div class="content7-item">
             <img src="./images/Newsletter.png" alt="" class="last-pic">
             <button class="intouch">Contact Us</button>
+            <!-- <div class="intouch-wrapper" id="intouchh">
+                <div class="intouchh">
+                    <button class="closebuttonintouch" id="closebuttonintouch">X</button>
+                  <h5 class="smm">our social medias:</h5>
+                 <div class="facebook-tripgoal">
+                    <img src="./images/facebook-color-svgrepo-com.svg" alt="" class="facebook-icon">
+                    <p class="username">@tripgoal</p>
+                 </div>
+                 <div class="instagram-tripgoal">
+                    <img src="./images/instagram-1-svgrepo-com.svg" alt="" class="insta-icon">
+                    <p class="username">@tripgoal</p>
+                 </div>
+                </div>
+            </div> -->
         </div>
         <footer class="foot">
             <ul class="ul-list">
@@ -246,7 +299,9 @@
                 <li class="nav-list-item1"><a href="#" class="a-list">Contact us</a></li>
                 <li class="nav-list-item1"><a href="#" class="a-list">FAQ</a></li>
             </ul>
+
         </footer>
+        <div class="border"></div>
         <div class="copyright">© 2021. All copyrights reserved by RH Agency</div>
     </div>
 

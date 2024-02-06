@@ -14,3 +14,22 @@ startnow.addEventListener('click', showModal)
 closebutton1.addEventListener('click', hideModal)
 
 
+
+
+
+
+
+// const intouch = document.getElementById('intouch')
+// const closebuttonintouch = document.getElementById('closebuttonintouch')
+// const intouchh = document.getElementById('intouchh')
+
+// const show1Modal = () => {
+//     intouch.style.display = 'flex'
+// }
+
+// const hide1Modal = () => {
+//     intouch.style.display = 'none'
+// }
+
+// intouch.addEventListener('click', show1Modal)
+// closebuttonintouch.addEventListener('click', hide1Modal)

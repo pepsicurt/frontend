@@ -103,10 +103,14 @@
 // }
 
 
-let num = 1
-let i = 1
-while(i <= 5){
-    num = num * i
-    console.log(num)
-    i++
-}
+
+
+// let num = 1
+// let i = 1
+// while(i <= 5){
+//     num = num * i
+//     console.log(num)
+//     i++
+// }
+
+

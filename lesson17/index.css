@@ -196,7 +196,7 @@ a {
     left: 350px;
     width: 77px;
     height: 77px;
-    bottom: -540px;
+    top: 1100px;
     z-index: -1;
     border-radius: 30px;
 }
